@@ -1,0 +1,55 @@
+Customer Retention & Churn Analysis (Telco)
+📌 Project Overview
+This project focuses on identifying the key drivers of customer churn for a subscription-based Telecommunications company. By analyzing customer demographics, account information, and service usage, I have developed a data-driven strategy to improve retention rates and increase Customer Lifetime Value (CLV).
+
+🎯 Business Goals
+Identify High-Risk Segments: Which customers are most likely to leave?
+
+Uncover Churn Drivers: Why are they leaving? (e.g., pricing, contract types, or service issues).
+
+Actionable Strategy: Provide concrete recommendations to the Product and Growth teams to reduce churn.
+
+📊 The Dataset
+The analysis is based on the Telco Customer Churn dataset, containing information on 7,043 customers.
+
+Target Variable: Churn (Customers who left within the last month).
+
+Features: Services (Fiber Optic, Online Security, etc.), Account Info (Contract, Payment Method, Tenure), and Demographics.
+
+🛠️ Tech Stack
+Data Cleaning: Python (Pandas) / Power BI Power Query
+
+Analysis: Python (Seaborn, Matplotlib)
+
+Dashboarding: Power BI Desktop
+
+Documentation: Markdown
+
+📈 Key Insights & Dashboard
+1. The "Contract" Effect
+Insight: Customers on Month-to-month contracts have a churn rate of over 40%, compared to <7% for two-year contracts.
+
+Recommendation: Incentivize long-term commitments through "Loyalty Discounts" or value-added bundles.
+
+2. The First-Year "Danger Zone"
+Insight: The highest volume of churn occurs within the first 12 months of tenure.
+
+Recommendation: Implement a 90-day "Customer Success" onboarding program to ensure users are finding value early.
+
+3. Service-Specific Friction
+Insight: Fiber Optic users churn at a significantly higher rate than DSL users, despite paying a premium. This indicates a potential gap in service quality or price-to-value perception.
+
+Recommendation: Conduct a technical audit of Fiber service stability and offer complimentary "Tech Support" for high-tier plans.
+
+🚀 How to Replicate this Analysis
+Clone the Repo: git clone https://github.com/your-username/churn-analysis-project.git
+
+Data Cleaning: Run the Data_Cleaning.ipynb notebook to see how missing values and data types were handled.
+
+Power BI: Open the .pbix file located in the /dashboard folder to interact with the visual reports.
+
+💡 Practical Recommendations for the Business
+Switch to Auto-Pay: Customers using Electronic Checks churned at nearly 2x the rate of those on Automatic Bank Transfers. Offer a $2 monthly credit for switching to Auto-Pay.
+
+Bundle "Sticky" Services: Customers with Online Security and Tech Support had significantly lower churn rates. Focus marketing efforts on bundling these into basic packages.
+
